@@ -1,0 +1,7 @@
+# Esta branch (main) so' versiona o executavel de distribuicao. Ignora
+# TUDO por padrao e libera so' o que deve estar aqui, de proposito:
+# protege contra um "add tudo" acidental trazendo outros arquivos.
+*
+!.gitignore
+!README.md
+!delivery_monitor.exe
